@@ -44,5 +44,5 @@ int main()
     {  
         printf(" \n You have entered wrong inputs ");  
     }  
-    return 0;  
+   
 }  
