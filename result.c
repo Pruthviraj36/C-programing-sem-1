@@ -34,27 +34,27 @@ void main()
 	{
 		printf("\n\t Fail");
 	}
-	else if (per < 50 && per > 40)
+	else if (per < 50 && per >= 40)
 	{
 		printf("\n\t Grade D");
 	}
-	else if (per < 60 && per > 50)
+	else if (per < 60 && per >= 50)
 	{
 		printf("\n\t Grade C");
 	}
-	else if (per < 70 && per > 60)
+	else if (per < 70 && per >= 60)
 	{
 		printf("\n\t Grade B");
 	}
-	else if (per < 80 && per > 70)
+	else if (per < 80 && per >= 70)
 	{
 		printf("\n\t Grade B+");
 	}
-	else if (per < 90 && per > 80)
+	else if (per < 90 && per >= 80)
 	{
 		printf("\n\t Grade A");
 	}
-	else if (per < 100 && per > 90)
+	else if (per < 100 && per >= 90)
 	{
 		printf("\n\t Grade A+");
 	}
