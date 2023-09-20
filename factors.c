@@ -5,7 +5,7 @@ void main(){
 	printf("To find factors of : ");
 	scanf("%d",&n);
 	while(i<=n){
-	x=n%i;n	
+	x=n%i;	
 	i++;
 	if(x==0){
 		printf("Factor is %d\n",x);
