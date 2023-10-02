@@ -1,11 +1,11 @@
 #include<stdio.h>
 void main(){
-		int n,i;
+		int n,i,a;
 	printf("From	: ");
 	scanf("%d",&n);
 	printf("To	: ");
-	scanf("%d",&n);
-	while(i<=n){
+	scanf("%d",&a);
+	while(n<=i<=a){
 		i++;
 		if(i%2==0){
 			printf("\n%d even",i);
